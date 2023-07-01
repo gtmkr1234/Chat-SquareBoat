@@ -1,7 +1,7 @@
 import { Controller, Post, Get, Body } from "@nestjs/common";
 import { ChatGateway } from "./chatapi.gateway";
 
-@Controller('chatapi')
+@Controller('chat')
 export class ChatController{
     constructor(private readonly chatGateway: ChatGateway){}
 
